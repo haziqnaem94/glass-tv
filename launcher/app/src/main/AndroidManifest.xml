@@ -67,9 +67,7 @@
             android:taskAffinity=""
             android:excludeFromRecents="true"
             android:theme="@android:style/Theme.NoDisplay" />
-        <!-- Home button for remotes that send KEYCODE_ALL_APPS (Xiaomi). Opt-in: HOME_KEY_SERVICE=1
-             build-and-install.sh; see HomeKeyService. -->
-
+        
         <!-- Screensaver: pick it in Settings, or `settings put secure screensaver_components
              com.gathin.tvhome/.ClockDream` over adb. -->
         <service
@@ -83,7 +81,7 @@
             </intent-filter>
         </service>
 
-        <!-- The remote's Input button (KEYCODE_TV) opens the input switcher; see InputKeyService. -->
+        
         
     </application>
 </manifest>
